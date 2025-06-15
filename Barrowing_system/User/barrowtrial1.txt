@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrow Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f0;
+            color: #333;
+        }
+
+        .top-bar {
+            background-color: #004085;
+            color: white;
+            text-align: right;
+            padding: 5px 20px;
+            font-size: 0.8em;
+        }
+
+        .top-bar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 5px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-right {
+            text-align: right;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #388E3C;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .borrow-form {
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .borrow-button {
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .borrow-button:hover {
+            background-color: #3e8e41;
+        }
+
+        /* QR Code Scanner Styles */
+        #qr-video {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px auto;
+            border: 1px solid #ddd;
+        }
+
+        #bookDetails {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        footer {
+            background-color: #ccc;
+            color: #333;
+            padding: 20px 0;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer-section h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .footer-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .footer-section a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 10px;
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <span><i class="far fa-clock icon"></i> Mon - Fri: 08:30 AM - 11:00 PM, Sat: 10:00 AM - 05:00 PM, Sun: 03:00 PM - 10:00 PM &nbsp;&nbsp; <i class="fas fa-phone icon"></i> 2517 0448
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </span>
+    </div>
+
+    <header>
+        <div class="header-left">
+            <img src="/php_program/Barrowing_system/Images/download.png" alt="UNESWA Library Logo">
+            <h1>University of Eswatini Library</h1>
+        </div>
+        <div class="header-right">
+            Kwaluseni Campus - Self-Service Book Borrowing
+        </div>
+    </header>
+
+    <nav>
+        <a href="homepage.php"><i class="fas fa-home icon"></i> Home</a>
+        <a href="search.php"><i class="fas fa-search icon"></i> Search Book</a>
+        <a href="#library-regulations"><i class="fas fa-file-alt icon"></i> Library Regulations</a>
+    </nav>
+
+    <main>
+        <div class="borrow-form">
+            <h2>Borrow Book</h2>
+          
+             <div class="content">
+        <?php
+        if (isset($_SESSION['username'])) {
+            echo "<p class='welcome-message'>Welcome, " . $_SESSION['username'] . "!</p>";
+        } else {
+            echo "<p class='welcome-message'>Welcome to the Self_service Book Barrowing Portal!</p>";
+        }
+        ?>
+            <p class="qr-prompt">Please scan the book QR code:</p>
+        <!-- You might want to embed a QR code scanner here.  This typically requires JavaScript and a library. -->
+        <!-- Placeholder for QR code scanner -->
+        <div>
+            <img src="/php_program/Barrowing_system/Images/bookscanning.jpg" alt="QR Code Example" style="max-width:200px;">
+            <p style="font-size: smaller;">(This is a QR code is on your Member card.)
+            </p>
+        </div>
+        <!-- Add the button here -->
+        <button class="scan-button" onclick="location.href='qr_scanner.php'">Scan QR Code</button>
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section get-in-touch">
+                <h3>Get In Touch</h3>
+                <img src="/php_program/Barrowing_system/Images/download.png" alt="University of Eswatini Library Logo" style="height:50px;">
+                <p>Kwaluseni, Luyengo & Mbabane</p>
+                <p><i class="fas fa-phone icon"></i> 2517 0448</p>
+                <p><i class="fas fa-envelope icon"></i> <a href="mailto:library@uniswa.sz">library@uniswa.sz</a></p>
+            </div>
+
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Eswatini National Bibliography</li>
+                    <li>UNESWA IR</li>
+                    <li>Notices</li>
+                    <li>Past Exam Papers</li>
+                    <li>UNESWA</li>
+                </ul>
+            </div>
+
+            <div class="footer-section popular-databases">
+                <h3>Popular Databases</h3>
+                <ul>
+                    <li>Science Direct</li>
+                    <li>Ebscohost</li>
+                    <li>ERIC</li>
+                    <li>Taylor & Francis</li>
+                    <li>Sabinet</li>
+                </ul>
+            </div>
+
+            <div class="footer-section follow-us">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; <?php echo date("Y"); ?> University of Eswatini Library | All Rights Reserved.
+        </div>
+    </footer>
+
+   
+   
+</body>
+</html>

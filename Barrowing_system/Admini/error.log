@@ -1,0 +1,11 @@
+2025-03-09 22:14:46 - Unknown column 'AdminID' in 'field list' - IP: ::1
+2025-03-09 22:19:18 - Passwords do not match - IP: ::1
+2025-03-09 22:19:43 - Passwords do not match - IP: ::1
+2025-03-09 22:32:31 - Unknown column 'AdminID' in 'field list' - IP: ::1
+2025-03-09 22:46:09 - Unknown column 'AdminID' in 'field list' - IP: ::1
+2025-03-09 22:47:10 - Unknown column 'FirstName' in 'field list' - IP: ::1
+2025-03-09 22:50:38 - Passwords do not match - IP: ::1
+2025-03-09 22:51:04 - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Name, Second Name, Surname, Role, Telephone, Email, Password) VALUES (?, ?, ?...' at line 1 - IP: ::1
+2025-03-31 14:39:43 - Column 'Contact' cannot be null - IP: ::1
+2025-05-23 23:43:33 - Passwords do not match - IP: ::1
+2025-05-23 23:58:18 - Unknown column 'ID' in 'field list' - IP: ::1

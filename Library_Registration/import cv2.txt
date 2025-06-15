@@ -1,0 +1,112 @@
+import cv2
+import numpy as np
+import pyzbar.pyzbar as pyzbar
+import urllib.request
+import base64
+from Crypto.Cipher import AES
+import mysql.connector
+
+# Database configuration
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '',
+    'database': 'library'
+}
+
+# AES Decryption configuration
+ENCRYPTION_KEY = b'Pa@47781'.ljust(32, b'\0')  # Pad to 32 bytes for AES-256
+
+def decrypt_data(encrypted_data):
+    try:
+        # Base64 decode
+        encrypted_data = base64.b64decode(encrypted_data)
+        # Extract IV (first 16 bytes) and ciphertext
+        iv = encrypted_data[:16]
+        ciphertext = encrypted_data[16:]
+        # Create AES cipher
+        cipher = AES.new(ENCRYPTION_KEY, AES.MODE_CBC, iv)
+        # Decrypt and unpad
+        decrypted = cipher.decrypt(ciphertext)
+        return decrypted[:-decrypted[-1]].decode()  # Remove PKCS#7 padding
+    except Exception as e:
+        print(f"Decryption error: {str(e)}")
+        return None
+
+def verify_in_database(email):
+    try:
+        conn = mysql.connector.connect(**db_config)
+        cursor = conn.cursor()
+        
+        # Check if email exists in database
+        cursor.execute("SELECT * FROM members_database WHERE Email = %s", (email,))
+        result = cursor.fetchone()
+        
+        cursor.close()
+        conn.close()
+        
+        return bool(result)
+    except mysql.connector.Error as err:
+        print(f"Database error: {err}")
+        return False
+
+url = 'http://192.168.27.245/'
+prev_data = ""
+current_data = ""
+
+cv2.namedWindow("QR Scanner", cv2.WINDOW_AUTOSIZE)
+
+while True:
+    try:
+        # Get video frame
+        img_resp = urllib.request.urlopen(url + 'cam-hi.jpg')
+        imgnp = np.array(bytearray(img_resp.read()), dtype=np.uint8)
+        frame = cv2.imdecode(imgnp, -1)
+
+        # Decode QR codes
+        decoded_objects = pyzbar.decode(frame)
+        
+        for obj in decoded_objects:
+            encrypted_data = obj.data.decode('utf-8')
+            
+            if encrypted_data != current_data:
+                current_data = encrypted_data
+                print("\nNew QR Code Detected")
+                print(f"Encrypted Data: {encrypted_data}")
+                
+                # Decrypt data
+                decrypted_email = decrypt_data(encrypted_data)
+                
+                if decrypted_email:
+                    print(f"Decrypted Email: {decrypted_email}")
+                    
+                    # Verify in database
+                    if verify_in_database(decrypted_email):
+                        print("Authentication Successful: Valid member")
+                        cv2.putText(frame, "ACCESS GRANTED", (50, 100), 
+                                   cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+                    else:
+                        print("Authentication Failed: Member not found")
+                        cv2.putText(frame, "ACCESS DENIED", (50, 100), 
+                                   cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                else:
+                    print("Invalid QR Code: Decryption failed")
+                    cv2.putText(frame, "INVALID QR CODE", (50, 100), 
+                               cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                
+                prev_data = current_data
+
+            # Display encrypted data on frame
+            cv2.putText(frame, f"Scanned: {encrypted_data[:15]}...", (50, 50), 
+                       cv2.FONT_HERSHEY_PLAIN, 1, (255, 0, 0), 2)
+
+        cv2.imshow("QR Scanner", frame)
+
+        if cv2.waitKey(1) == 27:  # ESC key to exit
+            break
+
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        break
+
+cv2.destroyAllWindows()

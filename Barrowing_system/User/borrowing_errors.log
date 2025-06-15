@@ -1,0 +1,1195 @@
+[2025-04-05 13:47:18] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 13:47:18] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 13:47:18] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 13:47:18', '2025-04-19 13:47:18', 'borrowed', '0-19-511701-8')
+[2025-04-05 13:52:45] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 13:52:45] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 13:52:45] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 13:52:45', '2025-04-19 13:52:45', 'borrowed', '0-19-511701-8')
+[2025-04-05 13:56:55] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 13:56:55] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 13:56:55] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 13:56:55', '2025-04-19 13:56:55', 'borrowed', '0-19-511701-8')
+[2025-04-05 14:00:14] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 14:00:14] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 14:00:14] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 14:00:14', '2025-04-19 14:00:14', 'borrowed', '0-19-511701-8')
+[2025-04-05 14:04:47] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 14:04:47] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 14:04:47] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 14:04:47', '2025-04-19 14:04:47', 'borrowed', '0-19-511701-8')
+[2025-04-05 14:11:57] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 14:11:57] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 14:11:57] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 14:11:57', '2025-04-19 14:11:57', 'borrowed', '0-19-511701-8')
+[2025-04-05 14:33:31] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 14:33:31] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 14:33:31] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 14:33:31', '2025-04-19 14:33:31', 'borrowed', '0-19-511701-8')
+[2025-04-05 14:52:19] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 14:52:19] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 14:52:19] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 14:52:19', '2025-04-19 14:52:19', 'borrowed', '0-19-511701-8')
+[2025-04-05 14:55:24] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 14:55:24] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 14:55:24] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-05 14:55:24', '2025-04-19 14:55:24', 'borrowed', '0-19-511701-8')
+[2025-04-05 15:16:16] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 15:16:16] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 15:16:16] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-05 15:16:16', '2025-04-19 15:16:16', 'borrowed', '0-19-511701-8')
+[2025-04-05 15:30:10] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 15:30:10] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 15:30:10] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-05 15:30:10', '2025-04-19 15:30:10', 'borrowed', '0-19-511701-8')
+[2025-04-05 16:41:53] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 16:41:53] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 16:41:53] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-05 16:41:53', '2025-04-19 16:41:53', 'borrowed', '0-19-511701-8')
+[2025-04-05 16:52:16] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 16:52:16] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 16:52:16] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-05 16:52:16', '2025-04-19 16:52:16', 'borrowed', '0-19-511701-8')
+[2025-04-05 17:12:36] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 17:12:36] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 17:12:36] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-05 17:12:36', '2025-04-19 17:12:36', 'borrowed', '0-19-511701-8')
+[05-Apr-2025 17:20:58 Europe/Berlin] Starting borrowing process at 2025-04-05 17:20:58
+[05-Apr-2025 17:21:12 Europe/Berlin] Starting borrowing process at 2025-04-05 17:21:12
+[2025-04-05 17:21:12] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 17:21:12] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[05-Apr-2025 17:21:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`library`.`borrowing_history`, CONSTRAINT `borrowing_history_ibfk_2` FOREIGN KEY (`Member_ID`) REFERENCES `members` (`ID`)) in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php:244
+Stack trace:
+#0 C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php(244): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php on line 244
+[2025-04-05 17:40:41] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 17:40:41] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-05 17:40:41] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-05 17:40:41', '2025-04-19 17:40:41', 'borrowed', '0-19-511701-8')
+[05-Apr-2025 18:48:13 Europe/Berlin] Starting borrowing process at 2025-04-05 18:48:13
+[05-Apr-2025 18:48:29 Europe/Berlin] Starting borrowing process at 2025-04-05 18:48:29
+[2025-04-05 18:48:29] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 18:48:29] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[05-Apr-2025 18:48:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`library`.`borrowing_history`, CONSTRAINT `borrowing_history_ibfk_2` FOREIGN KEY (`Member_ID`) REFERENCES `members` (`ID`)) in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php:244
+Stack trace:
+#0 C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php(244): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php on line 244
+[05-Apr-2025 18:49:16 Europe/Berlin] Starting borrowing process at 2025-04-05 18:49:16
+[05-Apr-2025 18:49:58 Europe/Berlin] Starting borrowing process at 2025-04-05 18:49:58
+[05-Apr-2025 18:50:21 Europe/Berlin] Starting borrowing process at 2025-04-05 18:50:21
+[2025-04-05 18:50:21] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-05 18:50:21] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[05-Apr-2025 18:50:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`library`.`borrowing_history`, CONSTRAINT `borrowing_history_ibfk_2` FOREIGN KEY (`Member_ID`) REFERENCES `members` (`ID`)) in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php:244
+Stack trace:
+#0 C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php(244): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php on line 244
+[09-Apr-2025 19:39:34 Europe/Berlin] Starting borrowing process at 2025-04-09 19:39:34
+[09-Apr-2025 19:39:51 Europe/Berlin] Starting borrowing process at 2025-04-09 19:39:51
+[2025-04-09 19:39:51] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-09 19:39:51] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[09-Apr-2025 19:39:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`library`.`borrowing_history`, CONSTRAINT `borrowing_history_ibfk_2` FOREIGN KEY (`Member_ID`) REFERENCES `members` (`ID`)) in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php:244
+Stack trace:
+#0 C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php(244): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\php_program\Barrowing_system\User\testscnnerdatabase.php on line 244
+[09-Apr-2025 19:42:20 Europe/Berlin] Starting borrowing process at 2025-04-09 19:42:20
+[09-Apr-2025 19:42:56 Europe/Berlin] Starting borrowing process at 2025-04-09 19:42:56
+[2025-04-10 00:24:30] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 00:24:30] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-10 00:24:30] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                            VALUES ('5', '202004294', '2025-04-10 00:24:30', '2025-04-24 00:24:30', 'borrowed', '0-19-511701-8')
+[2025-04-10 00:46:21] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 00:46:21] Processing borrow request: Member_ID = 202004294, Membership_type = Student
+[2025-04-10 00:55:22] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 00:55:22] Processing borrow request: Member_ID=202004294, MembershipType=Student
+[2025-04-10 00:57:39] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 00:57:39] Processing borrow request: Member_ID=202004294, MembershipType=Student
+[2025-04-10 01:14:36] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 01:14:36] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-10 01:14:36] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-10 01:14:36', '2025-04-24 01:14:36', 'borrowed', '0-19-511701-8')
+[2025-04-10 01:25:03] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 01:25:03] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-10 01:25:03] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-10 01:25:03', '2025-04-24 01:25:03', 'borrowed', '0-19-511701-8')
+[2025-04-10 01:28:26] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-10 01:28:26] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-10 01:28:26] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-10 01:28:26', '2025-04-24 01:28:26', 'borrowed', '0-19-511701-8')
+[2025-04-11 21:20:46] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:20:46] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-11 21:20:46] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-11 21:20:46', '2025-04-25 21:20:46', 'borrowed', '0-19-511701-8')
+[2025-04-11 21:28:12] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:28:12] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-11 21:28:12] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-11 21:28:12', '2025-04-25 21:28:12', 'borrowed', '0-19-511701-8')
+[2025-04-11 21:30:48] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:30:48] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-11 21:30:48] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-11 21:30:48', '2025-04-25 21:30:48', 'borrowed', '0-19-511701-8')
+[2025-04-11 21:33:08] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:33:08] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-11 21:33:08] Member not found: Member_ID=202004294
+[2025-04-11 21:40:26] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:43:09] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:43:37] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:44:49] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 202004294
+    [member_ID] => Student
+    [membershipType] => undefined
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:48:49] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [id] => 
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 21:50:47] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [id] => 
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:18:11] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [id] => 
+    [book_id] => 5
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:39:57] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:45:35] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:45:35] Processing borrow request: Member_ID=202004294, Membership_type=Student
+[2025-04-11 22:45:35] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-11 22:45:35', '2025-04-25 22:45:35', 'borrowed', '0-19-511701-8')
+[2025-04-11 22:53:13] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:53:13] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 22:53:13] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '89', '2025-04-11 22:53:13', '2025-04-25 22:53:13', 'borrowed', '0-19-511701-8')
+[2025-04-11 22:55:14] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:55:14] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 22:57:38] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 22:57:38] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 22:57:38] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-11 22:57:38', '2025-04-25 22:57:38', 'borrowed', '0-19-511701-8')
+[2025-04-11 23:01:36] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 23:01:36] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 23:03:19] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 23:03:19] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 23:03:19] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '202004294', '2025-04-11 23:03:19', '2025-04-25 23:03:19', 'borrowed', '0-19-511701-8')
+[2025-04-11 23:16:54] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 23:16:54] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 23:17:39] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 23:17:39] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 23:17:39] Insert Query: INSERT INTO borrowing_history (BookID, Member_ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '89', '2025-04-11 23:17:39', '2025-04-25 23:17:39', 'borrowed', '0-19-511701-8')
+[2025-04-11 23:18:20] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 23:18:20] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 23:18:20] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '89', '2025-04-11 23:18:20', '2025-04-25 23:18:20', 'borrowed', '0-19-511701-8')
+[2025-04-11 23:18:22] PHPMailer Error: SMTP Error: Could not authenticate.
+[2025-04-11 23:27:46] POST Data: Array
+(
+    [isbn] => 0-19-511701-8
+    [book_id] => 5
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-04-11 23:27:46] Processing borrow request: ID=89, Membership_type=Student
+[2025-04-11 23:27:46] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('5', '89', '2025-04-11 23:27:46', '2025-04-25 23:27:46', 'borrowed', '0-19-511701-8')
+[2025-04-11 23:27:50] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-01 13:16:00] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-01 13:16:00] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-01 13:16:00] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-01 13:16:00', '2025-05-15 13:16:00', 'borrowed', '0-13-312174-7')
+[2025-05-01 13:16:05] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-06 00:34:37] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-06 00:34:37] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-06 00:34:37] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-06 00:34:37', '2025-05-20 00:34:37', 'borrowed', '0-13-312174-7')
+[2025-05-06 00:34:44] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-06 02:23:00] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-06 02:23:00] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-06 02:23:00] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-06 02:23:00', '2025-05-20 02:23:00', 'borrowed', '0-13-312174-7')
+[2025-05-06 02:23:04] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-06 02:28:31] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-06 02:28:31] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-06 02:28:31] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-06 02:28:31', '2025-05-20 02:28:31', 'borrowed', '0-13-312174-7')
+[2025-05-06 02:28:35] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-06 02:33:27] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-06 02:33:27] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-06 02:33:27] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-06 02:33:27', '2025-05-20 02:33:27', 'borrowed', '0-13-312174-7')
+[2025-05-06 02:33:31] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-18 01:18:52] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-18 01:18:52] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-18 01:18:52] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-18 01:18:52', '2025-06-01 01:18:52', 'borrowed', '0-13-312174-7')
+[2025-05-18 01:18:58] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-05-27 11:01:53] POST Data: Array
+(
+    [isbn] => 0-13-312174-7
+    [book_id] => 6
+    [id] => 89
+    [member_ID] => 202004294
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-05-27 11:01:53] Processing borrow request: ID=89, Membership_type=Student
+[2025-05-27 11:01:53] Insert Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN) 
+                        VALUES ('6', '89', '2025-05-27 11:01:53', '2025-06-10 11:01:53', 'borrowed', '0-13-312174-7')
+[2025-05-27 11:02:02] Email sent to: 202004294@student.uneswa.ac.sz, Subject: Book Borrowing Confirmation
+[2025-06-03 23:42:12] POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-03 23:42:43] POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-03 23:47:11] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-03 23:47:11] Processing borrow request for Member ID: 202002197, Membership Type: Student, Book ID: 31, ISBN: 978-0-471-23862-1
+[2025-06-03 23:50:47] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-03 23:50:47] Processing borrow request for Member ID: 202002197, Membership Type: Student, Book ID: 31, ISBN: 978-0-471-23862-1
+[2025-06-03 23:50:47] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '202002197', '2025-06-03 23:50:47', '2025-06-17 23:50:47', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 00:04:11] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-04 00:04:11] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202002197
+    [Name] => Nosimilo Rose
+    [Surname] => Ngwenya
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76645417
+    [Email] => 202002197@student.uniswa.sz
+)
+
+[2025-06-04 00:04:11] Processing borrow request for Member ID: '202002197', Membership Type: 'Student', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 00:04:11] Executing member lookup query (for email info): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202002197'
+[2025-06-04 00:04:11] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '202002197' AND Status = 'borrowed'
+[2025-06-04 00:04:11] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '202002197', '2025-06-04 00:04:11', '2025-06-18 00:04:11', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 00:06:49] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-04 00:06:49] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202002197
+    [Name] => Nosimilo Rose
+    [Surname] => Ngwenya
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76645417
+    [Email] => 202002197@student.uniswa.sz
+)
+
+[2025-06-04 00:06:49] Processing borrow request for Session Member ID: '202002197', Membership Type: 'Student', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 00:06:49] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202002197'
+[2025-06-04 00:06:49] Found Primary Member PK ID: '163' for Session Member ID: '202002197'
+[2025-06-04 00:06:49] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '163' AND Status = 'borrowed'
+[2025-06-04 00:06:49] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '163', '2025-06-04 00:06:49', '2025-06-18 00:06:49', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 00:06:54] Email sent to: 202002197@student.uniswa.sz, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 00:08:43] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202020211
+    [membershipType] => External Member
+    [terms_agree] => 1
+)
+
+[2025-06-04 00:08:43] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202020211
+    [Name] => Nozwelo
+    [Surname] => Dlamini
+    [Membership_type] => External Member
+    [CourseDepartmentAffliation] => ECOT
+    [Contact] => 76211222
+    [Email] => dminenhle81@gmail.com
+)
+
+[2025-06-04 00:08:43] Processing borrow request for Session Member ID: '202020211', Membership Type: 'External Member', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 00:08:43] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202020211'
+[2025-06-04 00:08:43] Found Primary Member PK ID: '172' for Session Member ID: '202020211'
+[2025-06-04 00:08:43] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '172' AND Status = 'borrowed'
+[2025-06-04 00:08:43] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '172', '2025-06-04 00:08:43', '2025-06-18 00:08:43', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 00:08:47] Email sent to: dminenhle81@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 00:19:57] Received POST Data: Array
+(
+    [isbn] => 978-1-59158-629-6
+    [book_id] => 32
+    [member_ID] => 2147483647
+    [membershipType] => Staff
+    [terms_agree] => 1
+)
+
+[2025-06-04 00:19:57] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 2147483647
+    [Name] => Sanele
+    [Surname] => Motsa
+    [Membership_type] => Staff
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76213456
+    [Email] => dminenhle477@gmail.com
+)
+
+[2025-06-04 00:19:57] Processing borrow request for Session Member ID: '2147483647', Membership Type: 'Staff', Book ID: '32', ISBN: '978-1-59158-629-6'
+[2025-06-04 00:19:57] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '2147483647'
+[2025-06-04 00:19:57] Found Primary Member PK ID: '174' for Session Member ID: '2147483647'
+[2025-06-04 00:19:57] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '174' AND Status = 'borrowed'
+[2025-06-04 00:19:57] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('32', '174', '2025-06-04 00:19:57', '2025-09-24 00:19:57', 'borrowed', '978-1-59158-629-6')
+[2025-06-04 00:20:01] Email sent to: dminenhle477@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 02:05:27] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-04 02:05:27] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202002197
+    [Name] => Nosimilo Rose
+    [Surname] => Ngwenya
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76645417
+    [Email] => 202002197@student.uniswa.sz
+)
+
+[2025-06-04 02:05:27] Processing borrow request for Session Member ID: '202002197', Membership Type: 'Student', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 02:05:27] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202002197'
+[2025-06-04 02:05:27] Found Primary Member PK ID: '163' for Session Member ID: '202002197'
+[2025-06-04 02:05:27] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '163' AND Status = 'borrowed'
+[2025-06-04 02:05:27] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '163', '2025-06-04 02:05:27', '2025-06-18 02:05:27', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 02:05:31] Email sent to: 202002197@student.uniswa.sz, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 02:17:19] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-04 02:17:19] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202002197
+    [Name] => Nosimilo Rose
+    [Surname] => Ngwenya
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76645417
+    [Email] => 202002197@student.uniswa.sz
+    [message] => 
+)
+
+[2025-06-04 02:17:19] Processing borrow request for Session Member ID: '202002197', Membership Type: 'Student', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 02:17:19] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202002197'
+[2025-06-04 02:17:19] Found Primary Member PK ID: '163' for Session Member ID: '202002197'
+[2025-06-04 02:17:19] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '163' AND Status = 'borrowed'
+[2025-06-04 02:17:19] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '163', '2025-06-04 02:17:19', '2025-06-18 02:17:19', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 02:17:24] Email sent to: 202002197@student.uniswa.sz, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 02:25:34] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 2147483647
+    [membershipType] => Staff
+    [terms_agree] => 1
+)
+
+[2025-06-04 02:25:34] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 2147483647
+    [Name] => Sanele
+    [Surname] => Motsa
+    [Membership_type] => Staff
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76213456
+    [Email] => dminenhle477@gmail.com
+)
+
+[2025-06-04 02:25:34] Processing borrow request for Session Member ID: '2147483647', Membership Type: 'Staff', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 02:25:34] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '2147483647'
+[2025-06-04 02:25:34] Found Primary Member PK ID: '174' for Session Member ID: '2147483647'
+[2025-06-04 02:25:34] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '174' AND Status = 'borrowed'
+[2025-06-04 02:25:34] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '174', '2025-06-04 02:25:34', '2025-09-24 02:25:34', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 02:25:41] Email sent to: dminenhle477@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 02:39:46] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 2147483647
+    [membershipType] => Staff
+    [terms_agree] => 1
+)
+
+[2025-06-04 02:39:46] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 2147483647
+    [Name] => Sanele
+    [Surname] => Motsa
+    [Membership_type] => Staff
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76213456
+    [Email] => dminenhle477@gmail.com
+    [message] => 
+)
+
+[2025-06-04 02:39:46] Processing borrow request for Session Member ID: '2147483647', Membership Type: 'Staff', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 02:39:46] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '2147483647'
+[2025-06-04 02:39:46] Found Primary Member PK ID: '174' for Session Member ID: '2147483647'
+[2025-06-04 02:39:46] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '174' AND Status = 'borrowed'
+[2025-06-04 02:39:46] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '174', '2025-06-04 02:39:46', '2025-09-24 02:39:46', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 02:39:53] Email sent to: dminenhle477@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 03:09:34] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 210021
+    [membershipType] => Staff
+    [terms_agree] => 1
+)
+
+[2025-06-04 03:09:34] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 210021
+    [Name] => Thembelihle
+    [Surname] => Dlamini
+    [Membership_type] => Staff
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 78446556
+    [Email] => tldlamini@uneswa.ac.sz
+)
+
+[2025-06-04 03:09:34] Processing borrow request for Session Member ID: '210021', Membership Type: 'Staff', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 03:09:34] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '210021'
+[2025-06-04 03:09:34] Found Primary Member PK ID: '171' for Session Member ID: '210021'
+[2025-06-04 03:09:34] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '171' AND Status = 'borrowed'
+[2025-06-04 03:09:34] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '171', '2025-06-04 03:09:34', '2025-09-24 03:09:34', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 03:09:41] Email sent to: tldlamini@uneswa.ac.sz, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 04:21:40] Received POST Data: Array
+(
+    [isbn] => 978-1-59158-629-6
+    [book_id] => 32
+    [member_ID] => 210021
+    [membershipType] => Staff
+    [terms_agree] => 1
+)
+
+[2025-06-04 04:21:40] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 210021
+    [Name] => Thembelihle
+    [Surname] => Dlamini
+    [Membership_type] => Staff
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 78446556
+    [Email] => tldlamini@uneswa.ac.sz
+    [message] => 
+)
+
+[2025-06-04 04:21:40] Processing borrow request for Session Member ID: '210021', Membership Type: 'Staff', Book ID: '32', ISBN: '978-1-59158-629-6'
+[2025-06-04 04:21:40] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '210021'
+[2025-06-04 04:21:40] Found Primary Member PK ID: '171' for Session Member ID: '210021'
+[2025-06-04 04:21:40] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '171' AND Status = 'borrowed'
+[2025-06-04 04:21:40] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('32', '171', '2025-06-04 04:21:40', '2025-09-24 04:21:40', 'borrowed', '978-1-59158-629-6')
+[2025-06-04 04:21:51] Email sent to: tldlamini@uneswa.ac.sz, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 05:47:33] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-04 05:47:33] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202002197
+    [Name] => Nosimilo Rose
+    [Surname] => Ngwenya
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76645417
+    [Email] => 202002197@student.uniswa.sz
+)
+
+[2025-06-04 05:47:33] Processing borrow request for Session Member ID: '202002197', Membership Type: 'Student', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 05:47:33] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202002197'
+[2025-06-04 05:47:33] Found Primary Member PK ID: '163' for Session Member ID: '202002197'
+[2025-06-04 05:47:33] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '163' AND Status = 'borrowed'
+[2025-06-04 05:47:33] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '163', '2025-06-04 05:47:33', '2025-06-18 05:47:33', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 05:47:33] PHPMailer Error sending to 202002197@student.uniswa.sz: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2025-06-04 12:48:14] Received POST Data: Array
+(
+    [isbn] => 978-0-471-23862-1
+    [book_id] => 31
+    [member_ID] => 202002197
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-04 12:48:14] Current Session Data at start of scan_handle.php: Array
+(
+    [username] => lihle20@yahoo.com
+    [loggedin] => 1
+    [Member_ID] => 202002197
+    [Name] => Nosimilo Rose
+    [Surname] => Ngwenya
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 76645417
+    [Email] => 202002197@student.uniswa.sz
+)
+
+[2025-06-04 12:48:14] Processing borrow request for Session Member ID: '202002197', Membership Type: 'Student', Book ID: '31', ISBN: '978-0-471-23862-1'
+[2025-06-04 12:48:14] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202002197'
+[2025-06-04 12:48:14] Found Primary Member PK ID: '163' for Session Member ID: '202002197'
+[2025-06-04 12:48:14] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '163' AND Status = 'borrowed'
+[2025-06-04 12:48:14] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('31', '163', '2025-06-04 12:48:14', '2025-06-18 12:48:14', 'borrowed', '978-0-471-23862-1')
+[2025-06-04 12:48:27] PHPMailer Error sending to 202002197@student.uniswa.sz: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2025-06-04 12:50:52] Received POST Data: Array
+(
+    [isbn] => 978-1-59158-629-6
+    [book_id] => 32
+    [member_ID] => 202020211
+    [membershipType] => External Member
+    [terms_agree] => 1
+)
+
+[2025-06-04 12:50:52] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202020211
+    [Name] => Nozwelo
+    [Surname] => Dlamini
+    [Membership_type] => External Member
+    [CourseDepartmentAffliation] => ECOT
+    [Contact] => 76211222
+    [Email] => dminenhle81@gmail.com
+)
+
+[2025-06-04 12:50:52] Processing borrow request for Session Member ID: '202020211', Membership Type: 'External Member', Book ID: '32', ISBN: '978-1-59158-629-6'
+[2025-06-04 12:50:52] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202020211'
+[2025-06-04 12:50:52] Found Primary Member PK ID: '172' for Session Member ID: '202020211'
+[2025-06-04 12:50:52] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '172' AND Status = 'borrowed'
+[2025-06-04 12:50:52] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('32', '172', '2025-06-04 12:50:52', '2025-06-18 12:50:52', 'borrowed', '978-1-59158-629-6')
+[2025-06-04 12:50:57] Email sent to: dminenhle81@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 12:55:00] Received POST Data: Array
+(
+    [isbn] => 9780072315325
+    [book_id] => 33
+    [member_ID] => 202020211
+    [membershipType] => External Member
+    [terms_agree] => 1
+)
+
+[2025-06-04 12:55:00] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202020211
+    [Name] => Nozwelo
+    [Surname] => Dlamini
+    [Membership_type] => External Member
+    [CourseDepartmentAffliation] => ECOT
+    [Contact] => 76211222
+    [Email] => dminenhle81@gmail.com
+)
+
+[2025-06-04 12:55:00] Processing borrow request for Session Member ID: '202020211', Membership Type: 'External Member', Book ID: '33', ISBN: '9780072315325'
+[2025-06-04 12:55:00] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202020211'
+[2025-06-04 12:55:00] Found Primary Member PK ID: '172' for Session Member ID: '202020211'
+[2025-06-04 12:55:00] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '172' AND Status = 'borrowed'
+[2025-06-04 12:55:00] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('33', '172', '2025-06-04 12:55:00', '2025-06-18 12:55:00', 'borrowed', '9780072315325')
+[2025-06-04 12:55:03] Email sent to: dminenhle81@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-04 14:37:12] Received POST Data: Array
+(
+    [isbn] => 9780072315325
+    [book_id] => 33
+    [member_ID] => 202020211
+    [membershipType] => External Member
+    [terms_agree] => 1
+)
+
+[2025-06-04 14:37:12] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202020211
+    [Name] => Nozwelo
+    [Surname] => Dlamini
+    [Membership_type] => External Member
+    [CourseDepartmentAffliation] => ECOT
+    [Contact] => 76211222
+    [Email] => dminenhle81@gmail.com
+    [username] => lihle20@yahoo.com
+)
+
+[2025-06-04 14:37:12] Processing borrow request for Session Member ID: '202020211', Membership Type: 'External Member', Book ID: '33', ISBN: '9780072315325'
+[2025-06-04 14:37:12] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202020211'
+[2025-06-04 14:37:12] Found Primary Member PK ID: '172' for Session Member ID: '202020211'
+[2025-06-04 14:37:12] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '172' AND Status = 'borrowed'
+[2025-06-04 14:37:12] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('33', '172', '2025-06-04 14:37:12', '2025-06-18 14:37:12', 'borrowed', '9780072315325')
+[2025-06-04 14:37:17] Email sent to: dminenhle81@gmail.com, Subject: UNESWA Library: Book Borrowing Confirmation
+[2025-06-10 16:51:37] Received POST Data: Array
+(
+    [isbn] => 9780072315325
+    [book_id] => 33
+    [member_ID] => 202004646
+    [membershipType] => Student
+    [terms_agree] => 1
+)
+
+[2025-06-10 16:51:37] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202004646
+    [Name] => Simiso Msimisi
+    [Surname] => Bhembe
+    [Membership_type] => Student
+    [CourseDepartmentAffliation] => Electrical &amp; Electronics Engineering
+    [Contact] => 78465702
+    [Email] => 202004646@student.uneswa.ac.sz
+)
+
+[2025-06-10 16:51:37] Processing borrow request for Session Member ID: '202004646', Membership Type: 'Student', Book ID: '33', ISBN: '9780072315325'
+[2025-06-10 16:51:37] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202004646'
+[2025-06-10 16:51:37] Found Primary Member PK ID: '129' for Session Member ID: '202004646'
+[2025-06-10 16:51:37] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '129' AND Status = 'borrowed'
+[2025-06-10 16:51:37] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('33', '129', '2025-06-10 16:51:37', '2025-06-24 16:51:37', 'borrowed', '9780072315325')
+[2025-06-10 16:51:49] PHPMailer Error sending to 202004646@student.uneswa.ac.sz: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[2025-06-10 16:55:54] Received POST Data: Array
+(
+    [isbn] => 978-1-59158-629-6
+    [book_id] => 32
+    [member_ID] => 202020211
+    [membershipType] => External Member
+    [terms_agree] => 1
+)
+
+[2025-06-10 16:55:54] Current Session Data at start of scan_handle.php: Array
+(
+    [loggedin] => 1
+    [Member_ID] => 202020211
+    [Name] => Nozwelo
+    [Surname] => Dlamini
+    [Membership_type] => External Member
+    [CourseDepartmentAffliation] => ECOT
+    [Contact] => 76211222
+    [Email] => dminenhle81@gmail.com
+)
+
+[2025-06-10 16:55:54] Processing borrow request for Session Member ID: '202020211', Membership Type: 'External Member', Book ID: '32', ISBN: '978-1-59158-629-6'
+[2025-06-10 16:55:54] Executing member lookup query (to get Primary Key ID): SELECT ID, Email, Name, Surname FROM members WHERE Member_ID = '202020211'
+[2025-06-10 16:55:54] Found Primary Member PK ID: '172' for Session Member ID: '202020211'
+[2025-06-10 16:55:54] Executing borrowing limit query: SELECT COUNT(*) as count FROM borrowing_history WHERE ID = '172' AND Status = 'borrowed'
+[2025-06-10 16:55:54] Insert Borrow Query: INSERT INTO borrowing_history (BookID, ID, BorrowDate, DueDate, Status, ISBN)
+                        VALUES ('32', '172', '2025-06-10 16:55:54', '2025-06-24 16:55:54', 'borrowed', '978-1-59158-629-6')
+[2025-06-10 16:55:54] PHPMailer Error sending to dminenhle81@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server

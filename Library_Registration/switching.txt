@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 Control Panel</title>
+</head>
+<body>
+    <h1>ESP32 Remote Control</h1>
+    <?php
+    $esp32_ip = "YOUR_ESP32_IP"; // Replace with your ESP32 IP address
+
+    if(isset($_GET['led'])) {
+        $led_state = $_GET['led'];
+        $url = "http://" . $esp32_ip . "/led" . ucfirst($led_state);
+        file_get_contents($url); // Send request to ESP32
+    }
+
+    if(isset($_GET['relay'])) {
+        $relay_state = $_GET['relay'];
+        $url = "http://" . $esp32_ip . "/relay" . ucfirst($relay_state);
+        file_get_contents($url); // Send request to ESP32
+    }
+    ?>
+
+    <h2>Control LED</h2>
+    <a href="control.php?led=On"><button>Turn LED On</button></a>
+    <a href="control.php?led=Off"><button>Turn LED Off</button></a>
+
+    <h2>Control Relay</h2>
+    <a href="control.php?relay=On"><button>Turn Relay On</button></a>
+    <a href="control.php?relay=Off"><button>Turn Relay Off</button></a>
+</body>
+</html>
